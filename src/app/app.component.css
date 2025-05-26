@@ -1,0 +1,8 @@
+main{
+    background: #2050d4;
+    background: linear-gradient(40deg,rgba(32, 80, 212, 1) 2%, rgba(87, 180, 199, 1) 39%, rgba(104, 155, 209, 1) 66%, rgba(152, 83, 237, 1) 100%);
+}
+
+.card{
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.600));
+}
