@@ -12,7 +12,7 @@ ShortMyUrl é uma aplicação web desenvolvida com Angular 19 que através do ba
 [![RxJS](https://img.shields.io/badge/RxJS-7.x-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)](https://rxjs.dev/)
 ## 📸 Demonstração
 
-<img src="README/demonstracao.gif" width="100%"/>  
+https://github.com/user-attachments/assets/8d05159e-b18b-4bc6-88f4-ec6695e0bc6e
 
 ## 🛠️ Instalação
 
