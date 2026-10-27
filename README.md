@@ -1,56 +1,61 @@
-# ShortMyUrl
+<p align="center"><img src="README/Capa.jpg" alt="Capa do projeto ShortMyUrl-Web" width="100%" /></p>
 
-ShortMyUrl é uma aplicação web desenvolvida com Angular 19 que através do back-end ShortMyUrl permite encurtar URLs longas de forma simples e rápida.
+<h1 align="center">🔗 ShortMyUrl Web</h1>
 
-<img src="README/Capa.jpg" width="100%"/>  
+<p align="center"><em>Interface Angular para criar links curtos.</em></p>
 
-## 🚀 Tecnologias
+<p align="center">🇧🇷 Português | 🇺🇸 <a href="README.en.md">English</a></p>
 
-[![Angular](https://img.shields.io/badge/Angular-19-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![RxJS](https://img.shields.io/badge/RxJS-7.x-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)](https://rxjs.dev/)
-## 📸 Demonstração
+<p align="center"><img src="https://img.shields.io/badge/licen%C3%A7a-MIT-006bed?style=flat-square" alt="MIT" /> <img src="https://img.shields.io/github/last-commit/Felipe-Amorim-Dev/ShortMyUrl-Web?style=flat-square&color=006bed" alt="Last commit" /></p>
 
+<p align="center"><a href="#sobre">Sobre</a> • <a href="#tecnologias">Tecnologias</a> • <a href="#como-rodar">Como rodar</a> • <a href="#licenca">Licença</a> • <a href="#autor">Autor</a></p>
 
+---
 
-https://github.com/user-attachments/assets/c611d851-8e61-46c3-b66b-9b720fe95c36
+<a id="sobre"></a>
+## 📖 Sobre
 
+Aplicação web em Angular 19 e Tailwind CSS 4 que apresenta a interface do serviço de encurtamento de URLs ShortMyUrl.
 
+## ✨ Funcionalidades
 
-## 🛠️ Instalação
+- Interface para encurtar URLs
+- Comunicação com a API ShortMyUrl
 
-1. **Clone o repositório:**
+## 🛠️ Tecnologias
+
+![Angular 19](https://img.shields.io/badge/Angular_19-006bed?style=for-the-badge) ![TypeScript 5.7](https://img.shields.io/badge/TypeScript_5.7-006bed?style=for-the-badge) ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS_4-006bed?style=for-the-badge) ![RxJS 7](https://img.shields.io/badge/RxJS_7-006bed?style=for-the-badge)
+
+## 📦 Pré-requisitos
+
+Node.js e npm compatíveis com a versão do Angular deste projeto.
+
+<a id="como-rodar"></a>
+## 🚀 Como rodar
+
 ```bash
 git clone https://github.com/Felipe-Amorim-Dev/ShortMyUrl-Web.git
-```
-
-2. **Instale as dependências:**
-```bash
 cd ShortMyUrl-Web
 npm ci
-```
-3. **Execute o projeto:**
-```bash
 npm start
 ```
 
-4. **Acesse em:**
-```bash
 http://localhost:4200
-````
 
-## 🔧 Rodando o projeto
+## 🔗 Repositórios relacionados
 
-1. **Clone o projeto Back-end e siga as instruções de instalação**
+- [ShortMyUrl-DOTNET](https://github.com/Felipe-Amorim-Dev/ShortMyUrl-DOTNET) — Serviço de encurtamento .NET
 
-.NET-CORE 8:
- [ShortMyUrl-DOTNET](https://github.com/Felipe-Amorim-Dev/ShortMyUrl-DOTNET)
-
-
-## Limitação conhecida
-
-O backend .NET ainda precisa corrigir a geração da URL curta e implementar o redirecionamento. A interface pode ser utilizada para demonstração, mas o fluxo completo de encurtamento ainda não está validado.
-
+<a id="licenca"></a>
 ## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Distribuído sob a [licença MIT](LICENSE).
+
+<a id="autor"></a>
+## 👤 Autor
+
+**Felipe Figueiredo Amorim** — Desenvolvedor Full Stack.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felipe%20Amorim-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/felipe-amorim-dev/) [![E-mail](https://img.shields.io/badge/E--mail-contato-006bed?style=for-the-badge)](mailto:felipe.f.amorim@outlook.com)
+
+<p align="center"><strong>Obrigado por visitar! / Thanks for visiting!</strong></p>
