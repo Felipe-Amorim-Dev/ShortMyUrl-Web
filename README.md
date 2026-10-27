@@ -46,6 +46,27 @@ http://localhost:4200
 
 - [ShortMyUrl-DOTNET](https://github.com/Felipe-Amorim-Dev/ShortMyUrl-DOTNET) — Serviço de encurtamento .NET
 
+## 🏗️ Arquitetura e responsabilidades
+
+- AppComponent controla formulário, estado da URL original, resposta e cópia para clipboard.
+- UrlService encapsula a requisição POST via HttpClient.
+- src/environment/environment.ts define a URL do back-end.
+
+### Fluxo de funcionamento
+
+1. Formulário → AppComponent.onSubmit() → UrlService.encurtar() → API .NET → MongoDB.
+2. A resposta alimenta urlNova; copiarUrl utiliza navigator.clipboard.writeText().
+3. takeUntil e ngOnDestroy encerram a inscrição RxJS.
+
+### Execução local
+
+```bash
+npm ci
+npm start
+```
+
+Endereço do projeto: http://localhost:4200
+
 <a id="licenca"></a>
 ## 📄 Licença
 
